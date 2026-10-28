@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": true,
+  "dependencyDashboardHeader": "Check the boxes below under **Pending Approval** to trigger Renovate to create the Pull Request.",
+  "labels": ["dependencies", "renovate"]
+}
