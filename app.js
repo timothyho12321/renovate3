@@ -47,7 +47,7 @@ app.get('/', (req, res) => {
 </head>
 <body>
   <div class="card">
-    <h2>⏱️ Renovate Test Stopwatch</h2>
+    <h2>⏱️ Renovate Test Stopwatch 2</h2>
     <div class="timer" id="display">0.00s</div>
     <div>
       <button class="btn-start" onclick="toggleTimer()" id="startBtn">Start</button>
