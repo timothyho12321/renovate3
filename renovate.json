@@ -8,11 +8,11 @@
   
   "automerge": true,
   "automergeType": "pr",
-  "minimumReleaseAge": "6 months",
   "timezone": "Asia/Singapore",
   "packageRules": [
       { "matchUpdateTypes": ["major", "minor", "patch"],
-      "groupName": "all updates"
+      "groupName": "all updates",
+      "minimumReleaseAge": "6 months"
     }
   ],
   "platformAutomerge": true,
