@@ -4,7 +4,18 @@
     "config:recommended"
   ],
   "dependencyDashboard": true,
-  "dependencyDashboardApproval": true,
-  "dependencyDashboardHeader": "Check the boxes below under **Pending Approval** to trigger Renovate to create the Pull Request.",
+  "dependencyDashboardApproval": false,
+  
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": true,
+  "timezone": "Asia/Singapore",
+  "packageRules": [
+    {"matchCurrentAge": "> 6 months",
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "groupName": "all updates"
+    }
+  ],
+  "prHourlyLimit": 0,
   "labels": ["dependencies", "renovate"]
 }
