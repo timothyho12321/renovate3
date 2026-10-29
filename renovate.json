@@ -8,14 +8,14 @@
   
   "automerge": true,
   "automergeType": "pr",
-  "platformAutomerge": true,
+  "minimumReleaseAge": "6 months",
   "timezone": "Asia/Singapore",
   "packageRules": [
-    {"matchCurrentAge": "> 6 months",
-      "matchUpdateTypes": ["major", "minor", "patch"],
+      { "matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all updates"
     }
   ],
+  "platformAutomerge": true,
   "prHourlyLimit": 0,
   "labels": ["dependencies", "renovate"]
 }
